@@ -11,18 +11,10 @@ import android.support.v7.app.AppCompatActivity;
 
 public class about extends AppCompatActivity {
 
-private Button button;
-
     @Override
     protected void onCreate( Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.about);
-        button=(TextView)findViewById(R.id.btn);
-        button.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-               //Add your operation here.......
-            }
-        });
+       
     }
 }
